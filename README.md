@@ -19,6 +19,7 @@
 >
 ##Examples: (.mp4 files are also supported)
 ![image](https://github.com/henry8248/Race-recognition/blob/main/demo/success.png)
+![image](https://github.com/henry8248/Race-recognition/blob/main/demo/USB_cam_demo.png)
     
 
 
