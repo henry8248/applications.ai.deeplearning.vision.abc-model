@@ -5,6 +5,7 @@
 ##Models:
 1. Model1: YuNet(For face-detection) Related link: https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet
 2. Model2: The Race model which can recognize four races. That is, Black, White, Indian, and Asian.
+>
 ##Inference: 
 1. Set up a python virtual env in terminal 
 2. Build openCV with DL Streamer support: https://galaktyk.medium.com/how-to-build-opencv-with-gstreamer-b11668fa09c
