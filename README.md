@@ -11,7 +11,8 @@
 ##Inference:
 1. Set up a python virtual env in terminal 
 2. Build openCV with DL Streamer support: https://galaktyk.medium.com/how-to-build-opencv-with-gstreamer-b11668fa09c
-3. Connect your USB camera to the computer and check its supported image format by v4l2-ctl command(Refer to https://www.mankier.com/1/v4l2-ctl)
+3. Connect your USB camera to the computer and check its supported image format by v4l2-ctl command
+   (Refer to https://www.mankier.com/1/v4l2-ctl)
 4. Clone the repository
 5. Modify the path of external or internal cameras for gstreamer pipeline in Race-recognition/gstreamer/Inference.py to connect the camera to the pipeline
 6. Execute!
