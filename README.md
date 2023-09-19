@@ -1,7 +1,7 @@
 # Race-recognition
-Description: The project uses two models to realize basic race-recognition, and the inference is done by building OpenCV with DL Streamer support.  
-OS: Ubuntu 22.04LTS  
-Models:
+>Description: The project uses two models to realize basic race-recognition, and the inference is done by building OpenCV with DL Streamer support.  
+>OS: Ubuntu 22.04LTS  
+>Models:
     Model1: YuNet(For face-detection) Related link: https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet
     Model2: The Race model which can recognize four races. That is, Black, White, Indian, and Asian.
 Inference: 
