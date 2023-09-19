@@ -1,8 +1,9 @@
 # Race-recognition
-##Description:#
+##Description:
 * The project uses two models to realize basic race-recognition, and the inference is done by building OpenCV with DL Streamer support.
 >
 ##OS: Ubuntu 22.04LTS
+>
 ##Models:
 1. Model1: YuNet(For face-detection) Related link: https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet
 2. Model2: The Race model which can recognize four races. That is, Black, White, Indian, and Asian.
@@ -15,7 +16,7 @@
 5. Modify the path of external or internal cameras for gstreamer pipeline in Race-recognition/gstreamer/Inference.py to connect the camera to the pipeline
 6. Execute!
 >
->Examples: (.mp4 files are also supported)
+##Examples: (.mp4 files are also supported)
 
     
     
