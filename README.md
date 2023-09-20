@@ -11,7 +11,7 @@
 > 
 ##Models:
 1. Model1: YuNet(For face-detection) Related link: https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet
-2. Model2: The Race model which can recognize four races. That is, Black, White, Indian, and Asian.
+2. Model2: The Race model which can recognize four races. That is, Black, White, Indian, and Asian. Model's val-accuracy: about 87%
 >
 ##Inference:
 1. Set up a python virtual env in terminal 
@@ -23,6 +23,7 @@
 6. Execute!
 >
 ##Examples: (.mp4 files are also supported)
+* For the results of video files, please refer to webm files in Race-recognition/demo/
 ![image](https://github.com/henry8248/Race-recognition/blob/main/demo/success.png)
 ![image](https://github.com/henry8248/Race-recognition/blob/main/demo/resized_cam_demo.png)
 
