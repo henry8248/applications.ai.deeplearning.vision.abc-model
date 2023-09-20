@@ -22,7 +22,8 @@
 5. Modify the path of external or internal cameras for gstreamer pipeline in Race-recognition/gstreamer/Inference.py to connect the camera to the pipeline
 6. Execute!
 >
-##Examples: (.mp4 files are also supported: Input format: Codec: h264, Resolution(most fluent): 640x360)
+##Examples:
+* .mp4 files are also supported: Input format: Codec: h264, Resolution(most fluent): 640x360
 * For the results of video files, please refer to webm files in Race-recognition/demo/
 ![image](https://github.com/henry8248/Race-recognition/blob/main/demo/success.png)
 ![image](https://github.com/henry8248/Race-recognition/blob/main/demo/resized_cam_demo.png)
