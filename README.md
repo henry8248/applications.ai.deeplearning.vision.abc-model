@@ -4,6 +4,11 @@
 >
 ##OS: Ubuntu 22.04LTS
 >
+##Datasets:
+1. Fairface:https://github.com/joojs/fairface
+2. UTKface: https://susanqq.github.io/UTKFace/
+3. Vggface2: https://academictorrents.com/details/535113b8395832f09121bc53ac85d7bc8ef6fa5b
+> 
 ##Models:
 1. Model1: YuNet(For face-detection) Related link: https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet
 2. Model2: The Race model which can recognize four races. That is, Black, White, Indian, and Asian.
