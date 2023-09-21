@@ -15,24 +15,19 @@
 import cv2 #opencv for gstreamer
 import numpy as np
 
-#haarcascade_profileface.xml 
-# clf = cv2.CascadeClassifier() 
-#gst_str = "videotestsrc ! videoconvert ! appsink drop=1"
+
 #Asian_speech.mp4, face-detection.mp4 test.mp4 white_mexican.mp4 w_b_a.mp4 black_indian_white.mp4
 
 pb  = "//home//venus3//anaconda3//envs//race_training//frozen_models//race_frozen_graph.pb"
-# pb = "/home/venus3/anaconda3/envs/race_training/84%_race_model/saved_model.pb"
 model_path="/home/venus3/anaconda3/envs/streamer/models&videos/yunet.onnx"
                     
 face_detector = cv2.FaceDetectorYN_create(model_path, "", (0, 0))
-
 racenet = cv2.dnn.readNetFromTensorflow(model=pb)   
 
-
-# gst_str = "filesrc location=/home/venus3/anaconda3/envs/streamer/models&videos/test.mp4 ! decodebin ! video/x-raw ! queue ! videoconvert ! video/x-raw, format=BGR ! appsink"
-# image/jpg format=YUY2
+#Pipeline for videos (Please alter the path to yours)
+# gst_str = "filesrc location=/home/venus3/anaconda3/envs/streamer/models_videos/out.mp4 ! decodebin !  video/x-raw, width=640, height=360 ! videoconvert ! video/x-raw, format=BGR ! appsink"
+#Pipeline for camera (Please alter the path to yours)
 gst_str = "gst-launch-1.0 -v v4l2src device=/dev/video2 io-mode=2 ! video/x-raw, format=NV12, framerate=30/1, width=1280, height=720 ! videoconvert ! video/x-raw, format=BGR ! appsink"
-# gst_str = "gst-launch-1.0 -v v4l2src device=/dev/video1 ! video/x-raw, format=YUV2, framerate=30/1, image/jpeg, width=848,height=480 ! videoconvert ! video/x-raw, format=BGR ! appsink drop=1"
 cap = cv2.VideoCapture(gst_str, cv2.CAP_GSTREAMER)
 race = {0 : "Asian", 1: "Black", 2: "Indian", 3: "White"}
 factor = 5
