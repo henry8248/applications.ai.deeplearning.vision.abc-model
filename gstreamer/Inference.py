@@ -1,17 +1,4 @@
 
-# """
-# How to optimize: cv2.dnn() 
-# 1. Raise framerate        #Model pruning/ Enable gpu support
-# 2. Raise model accuracies: Indonesian -> Black/White, face-detection's cannot be adopted to
-# smaller faces and tilted faces
-# 3. Add more logs for the race model -> Latino? South-Asian?
-# 4. Add UI by tkinter [TBD]
-# 5. Plug webcam and make it work [TBD]
-# 6. Enforce UI-> pyQT, Django
-# 7. Launch to different platforms and input source formats -> Android/Chromebook, Line, Discord
-# """
-### if the race model can be fed with grayscale data, the model might be inserted into original gvaclassify pipeline
-### with face-detection adas used. 
 import cv2 #opencv for gstreamer
 import numpy as np
 
@@ -59,7 +46,7 @@ while cap.isOpened():
         
         cv2.namedWindow("Faces", cv2.WINDOW_NORMAL)
         cv2.imshow("Faces", frame)
-        # cv2.imshow("test", frame)
+    
         if not ret:
             print("fail")
             break
