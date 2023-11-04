@@ -1,6 +1,6 @@
-# Race-recognition
+# ABC model (Ancestral Background Classification)
 ##Description:
-* The project uses two models to realize basic race-recognition, and the inference is done by building OpenCV with DL Streamer support.
+* The project uses two models to realize basic ABC, and the inference is done by building OpenCV with DL Streamer support.
 >
 ##OS: Ubuntu 22.04LTS
 >
@@ -11,7 +11,7 @@
 > 
 ##Models:
 1. Model1: YuNet(For face-detection) Related link: https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet
-2. Model2: The Race model which can recognize four races. That is, Black, White, Indian, and Asian. Model's val-accuracy: about 87%
+2. Model2: The ABC model which can recognize four categories. That is, Black, White, Indian, and Asian. Model's val-accuracy: about 87%
 >
 ##Inference:
 1. Set up a python virtual env in terminal 
