@@ -11,7 +11,7 @@
 > 
 ##Models:
 1. Model1: YuNet(For face-detection) Related link: https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet
-2. Model2: The ABC model which can recognize four categories. That is, Black, White, Indian, and Asian. Model's val-accuracy: about 87%
+2. Model2: The ABC model which can recognize four categories. That is, A: African, C: Caucasian, S: South Asian, and E: East Asian. Model's val-accuracy: about 83%
 >
 ##Inference:
 1. Set up a python virtual env in terminal 
@@ -27,7 +27,7 @@
 * To convert video files to h264 codec, use ffmpeg. In linux open terminal -> sudo apt install ffmpeg -> Convert the file:
 >ffmpeg -i inputfile -c:v libx264 -crf 18 out.mp4 
 * For the results of video files, please refer to webm files in Race-recognition/demo/
-![image](https://github.com/henry8248/Race-recognition/blob/main/demo/success.png)
+![image]([https://github.com/henry8248/Race-recognition/blob/main/demo/success.png](https://github.com/henry8248/The_ABC_model/blob/main/demo/Biden.png)
 ![image](https://github.com/henry8248/Race-recognition/blob/main/demo/resized_cam_demo.png)
 
     
