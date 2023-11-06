@@ -27,7 +27,7 @@
 * To convert video files to h264 codec, use ffmpeg. In linux open terminal -> sudo apt install ffmpeg -> Convert the file:
 >ffmpeg -i inputfile -c:v libx264 -crf 18 out.mp4 
 * For the results of video files, please refer to webm files in Race-recognition/demo/
-![image]([https://github.com/henry8248/Race-recognition/blob/main/demo/success.png](https://github.com/henry8248/The_ABC_model/blob/main/demo/Biden.png)
+![image]([https://github.com/henry8248/The_ABC_model/blob/main/demo/Biden.png])
 ![image](https://github.com/henry8248/Race-recognition/blob/main/demo/resized_cam_demo.png)
 
     
