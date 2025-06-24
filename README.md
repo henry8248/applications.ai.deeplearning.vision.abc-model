@@ -1,7 +1,7 @@
 # ABC model (Ancestral Background Classification)
 ## Description:
 * The project uses two models to realize basic ABC, and the inference is done by building OpenCV with DL Streamer support.
-* This is the early version of my intern project. The latest version is confidential.
+* **This is the early version of my intern project. The latest version is confidential**
 >
 ## OS: Ubuntu 22.04LTS
 >
